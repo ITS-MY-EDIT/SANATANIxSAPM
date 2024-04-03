@@ -33,12 +33,12 @@ async def raid(e):
             uid = entity.id
 
         try:
-            if uid in OXYGEN:
-                await e.reply("REPO OWNER HAI YE.")
+            if uid in SACHIN:
+                await e.reply("➲ ᴛʜɪs ɪs [ 𝗠𝗥 𝗦𝗔𝗖𝗛𝗜𝗡 ][ 𝚂ʌŋᴀᴛᴎɩ ]\n▸ ᴛʜɪs ɪs ᴍʏ ᴏᴡɴᴇʀ ~ ᴍʏ ᴅᴇᴠᴇʟᴏᴘ\n▸ sᴀᴍᴊʜᴀ ʀᴀɴᴅɪ ᴋᴇ ᴘɪʟʟᴇ")
             elif uid == OWNER_ID:
-                await e.reply("BETA BAAP PE RAID NHI KRTE HAI...")
+                await e.reply("➲ ᴛʜɪs ɪs [ 𝗠𝗥 𝗦𝗔𝗖𝗛𝗜𝗡 ][ 𝚂ʌŋᴀᴛᴎɩ ]\n▸ ᴛʜɪs ɪs ᴍʏ ᴏᴡɴᴇʀ ~ ᴍʏ ᴅᴇᴠᴇʟᴏᴘ\n▸ sᴀᴍᴊʜᴀ ʀᴀɴᴅɪ ᴋᴇ ᴘɪʟʟᴇ")
             elif uid in SUDO_USERS:
-                await e.reply("ISPE RAID MAT MARO.. !!...")
+                await e.reply("➲ sᴏʀʀʏ ᴛʜɪs ɪs sᴜᴅᴏ ᴜsᴇʀ \n➲ ʏᴇ ʙʜɪ ᴛᴇʀɪ ᴛᴀʀᴀʜ ʜɪ ʜᴀɪ \n➲ sᴀᴍᴊʜᴀ ʀᴇ ᴄʜᴏᴍᴜ ᴄʜᴜᴛɪʏᴇ")
             else:
                 first_name = entity.first_name
                 counter = int(xraid[1])
