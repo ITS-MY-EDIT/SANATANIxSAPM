@@ -35,7 +35,7 @@ async def raid(e):
             uid = entity.id
 
         try:
-            if uid in OXYGEN:
+            if uid in SACHIN:
                 await e.reply("➲ ᴛʜɪs ɪs [ 𝗠𝗥 𝗦𝗔𝗖𝗛𝗜𝗡 ][ 𝚂ʌŋᴀᴛᴎɩ ]\n▸ ᴛʜɪs ɪs ᴍʏ ᴏᴡɴᴇʀ ~ ᴍʏ ᴅᴇᴠᴇʟᴏᴘ\n▸ sᴀᴍᴊʜᴀ ʀᴀɴᴅɪ ᴋᴇ ᴘɪʟʟᴇ")
             elif uid == OWNER_ID:
                 await e.reply("➲ ᴛʜɪs ɪs [ 𝗠𝗥 𝗦𝗔𝗖𝗛𝗜𝗡 ][ 𝚂ʌŋᴀᴛᴎɩ ]\n▸ ᴛʜɪs ɪs ᴍʏ ᴏᴡɴᴇʀ ~ ᴍʏ ᴅᴇᴠᴇʟᴏᴘ\n▸ sᴀᴍᴊʜᴀ ʀᴀɴᴅɪ ᴋᴇ ᴘɪʟʟᴇ")
@@ -100,7 +100,7 @@ async def rraid(e):
 
         try:
             user_id = entity.id
-            if user_id in OXYGEN:
+            if user_id in SACHIN:
                 await e.reply("➲ ᴛʜɪs ɪs [ 𝗠𝗥 𝗦𝗔𝗖𝗛𝗜𝗡 ][ 𝚂ʌŋᴀᴛᴎɩ ]\n▸ ᴛʜɪs ɪs ᴍʏ ᴏᴡɴᴇʀ ~ ᴍʏ ᴅᴇᴠᴇʟᴏᴘ\n▸ sᴀᴍᴊʜᴀ ʀᴀɴᴅɪ ᴋᴇ ᴘɪʟʟᴇ")
             elif user_id == OWNER_ID:
                 await e.reply("➲ ᴛʜɪs ɪs [ 𝗠𝗥 𝗦𝗔𝗖𝗛𝗜𝗡 ][ 𝚂ʌŋᴀᴛᴎɩ ]\n▸ ᴛʜɪs ɪs ᴍʏ ᴏᴡɴᴇʀ ~ ᴍʏ ᴅᴇᴠᴇʟᴏᴘ\n▸ sᴀᴍᴊʜᴀ ʀᴀɴᴅɪ ᴋᴇ ᴘɪʟʟᴇ")
