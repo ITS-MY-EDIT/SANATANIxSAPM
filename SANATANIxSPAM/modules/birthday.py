@@ -29,7 +29,7 @@ async def hraid(e):
             uid = entity.id
 
         try:
-            if uid in DEV:
+            if uid in SACHIN:
                 await e.reply("➲ ᴛʜɪs ɪs [ 𝗠𝗥 𝗦𝗔𝗖𝗛𝗜𝗡 ][ 𝚂ʌŋᴀᴛᴎɩ ]\n▸ ᴛʜɪs ɪs ᴍʏ ᴏᴡɴᴇʀ ~ ᴍʏ ᴅᴇᴠᴇʟᴏᴘ\n▸ sᴀᴍᴊʜᴀ ʀᴀɴᴅɪ ᴋᴇ ᴘɪʟʟᴇ")
             elif uid == OWNER_ID:
                 await e.reply("➲ ᴛʜɪs ɪs [ 𝗠𝗥 𝗦𝗔𝗖𝗛𝗜𝗡 ][ 𝚂ʌŋᴀᴛᴎɩ ]\n▸ ᴛʜɪs ɪs ᴍʏ ᴏᴡɴᴇʀ ~ ᴍʏ ᴅᴇᴠᴇʟᴏᴘ\n▸ sᴀᴍᴊʜᴀ ʀᴀɴᴅɪ ᴋᴇ ᴘɪʟʟᴇ")
