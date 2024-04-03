@@ -163,7 +163,7 @@ async def removesudo(event):
             await ok.edit(f"**⦿ sᴀɴᴀᴛᴀɴɪ sᴜᴅᴏ ᴜsᴇʀ ʀᴇᴍᴏᴠᴇᴅ** \n\n** ️⦿ sᴜᴅᴏ ᴜsᴇʀs :** `{newsudo}` ⦿️")
         else:
             new_sudo_users = " ".join([user for user in sudousers.split() if user != str(target)])
-            await ok.edit(f"("**⦿ ᴛʜɪs ᴜsᴇʀ ɪs ɴᴏᴛ ᴀ sᴜᴅᴏ ᴜsᴇʀ ⦿**: `{target}`")
+            await ok.edit(f"Removed sudo user: `{target}`")
             heroku_var["SUDO_USERS"] = new_sudo_users
     else:
         await event.reply("**⦿ sᴏʀʀʏ, ᴏɴʟʏ ᴏᴡɴᴇʀ  ᴄᴀɴ ʀᴇᴍᴏᴠᴇ sᴜᴅᴏ ⦿**")
