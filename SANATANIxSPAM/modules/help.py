@@ -14,13 +14,9 @@ HELP_BUTTON = [
       Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="extra")
     ],
     [
+      Button.inline("• ɴᴇᴡ •", data="yash")
       Button.url("• sᴀᴄʜɪɴ •", "https://t.me/V_VIP_OWNER"),
-      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Il_4ST_FIGHTER_lI")
     ],
-  [   
-      Button.inline("• ɴᴇᴡ ᴄᴏᴍᴍᴀɴᴅs •", data="yash")
-      
-  ]
 ]
 
 
@@ -182,14 +178,13 @@ async def helpback(event):
               [
                 Button.inline("• sᴘᴀᴍ •", data="spam"),
                 Button.inline("• ʀᴀɪᴅ •", data="raid"),
-                Button.inline("• ɴᴇᴡ ᴄᴏᴍᴍᴀɴᴅs •", data="yash")
               ],
               [
                 Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="extra")
               ],
               [
+                Button.inline("• ɴᴇᴡ •", data="yash")
                 Button.url("• sᴀᴄʜɪɴ •", "https://t.me/V_VIP_OWNER"),
-                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Il_4ST_FIGHTER_lI")
               ]
             ]
           )
