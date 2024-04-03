@@ -1,0 +1,5 @@
+build:
+  docker:
+    Sachin: Dockerfile
+run:
+  Sachin: python3 -m main.py
