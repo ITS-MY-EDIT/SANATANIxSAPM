@@ -14,9 +14,12 @@ HELP_BUTTON = [
       Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="extra")
     ],
     [
-      Button.inline("• ɴᴇᴡ •", data="yash")
       Button.url("• sᴀᴄʜɪɴ •", "https://t.me/V_VIP_OWNER"),
+      Button.url("• ʀᴇᴘᴏ •", "https://t.me/Il_4ST_FIGHTER_lI")
     ],
+    [   
+      Button.inline("• ɴᴇᴡ •", data="yash")
+    ]
 ]
 
 
@@ -34,7 +37,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://telegra.ph/file/803868e39daf8729919f8.jpg",
+              "https://telegra.ph/file/fed3cd92e379575550a88.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -175,17 +178,21 @@ async def helpback(event):
         await event.edit(
             HELP_STRING,
             buttons=[
-              [
-                Button.inline("• sᴘᴀᴍ •", data="spam"),
-                Button.inline("• ʀᴀɪᴅ •", data="raid"),
-              ],
-              [
-                Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="extra")
-              ],
-              [
-                Button.inline("• ɴᴇᴡ •", data="yash")
-                Button.url("• sᴀᴄʜɪɴ •", "https://t.me/V_VIP_OWNER"),
-              ]
+    [
+      Button.inline("• sᴘᴀᴍ •", data="spam"),
+      Button.inline("• ʀᴀɪᴅ •", data="raid")
+    ],
+    [
+      Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="extra")
+    ],
+    [
+      Button.url("• sᴀᴄʜɪɴ •", "https://t.me/V_VIP_OWNER"),
+      Button.url("• ʀᴇᴘᴏ •", "https://t.me/Il_4ST_FIGHTER_lI")
+    ],
+    [   
+      Button.inline("• ɴᴇᴡ •", data="yash")
+      
+    ]
             ]
           )
     else:
