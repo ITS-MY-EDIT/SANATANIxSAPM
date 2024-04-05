@@ -9,11 +9,11 @@ START_BUTTON = [
     ],
     [
         Button.url("• ᴜᴅᴀᴛᴇs •", "https://t.me/ALL_SANATANI_BOT"),
-        Button.url("• ᴜᴘᴘᴏʀᴛ •", "https://t.me/Il_4ST_FIGHTER_lI")
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Il_4ST_FIGHTER_lI")
     ],
     [
         Button.url("• sᴀᴄʜɪɴ •", "https://t.me/V_VIP_OWNER"),
-        Button.url("• ᴀʟᴏɴᴇ •", "https://t.me/SACHIN_OWNER")
+        Button.url("• ʀᴇᴘᴏ •", "https://t.me/Il_4ST_FIGHTER_lI")
     ],
     [
         Button.url("• ᴊᴏɪɴ ғᴏʀ sᴜᴅᴏ •", "https://t.me/Il_4ST_FIGHTER_lI")
@@ -36,10 +36,10 @@ async def start(event):
         AltBot = await event.client.get_me()
         bot_name = AltBot.first_name
         bot_id = AltBot.id
-        TEXT = f"**ʜᴇʏ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})**\n"
+        TEXT = f"**•┈┈─┈┈─┈┈─┈┈─┈┈─┈┈─┈┈•\n❍ 𝗛𝗘𝗬 ‣ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n•┈┈─┈┈─┈┈─┈┈─┈┈─┈┈─┈┈•\n❍ 𝗜 𝗔𝗠 ‣ [{bot_name}](tg://user?id={bot_id})**\n•┈┈─┈┈─┈┈─┈┈─┈┈─┈┈─┈┈•\n● ɪ ᴀᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀғᴜʟ sᴘᴀᴍ ʙᴏᴛ ●\n•┈┈─┈┈─┈┈─┈┈─┈┈─┈┈─┈┈•\n⊚ ᴜɴʟɪᴍɪᴛᴇᴅ ʀᴀɪᴅ\n⊚ ᴜɴʟɪᴍɪᴛᴇᴅ sᴘᴀᴍ \n•┈┈─┈┈─┈┈─┈┈─┈┈─┈┈─┈┈•\n⦿ 24x7 ʀᴜɴ | @Il_4ST_FIGHTER_lI\n•┈┈─┈┈─┈┈─┈┈─┈┈─┈┈─┈┈•**"
         await event.client.send_file(
             event.chat_id,
-            "https://telegra.ph/file/e44717416b4c029ace5f5.jpg",
+            "https://telegra.ph/file/fed3cd92e379575550a88.jpg",
             caption=TEXT,
             buttons=START_BUTTON
         )
