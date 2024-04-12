@@ -22,7 +22,7 @@ def load_plugins(plugin_name):
     load.logger = logging.getLogger(plugin_name)
     spec.loader.exec_module(load)
     sys.modules["SANATANIxSPAM.modules." + plugin_name] = load
-    print("𝗢𝗫𝗬𝗚𝗘𝗡 𝗛𝗔𝗦 𝗜𝗠𝗣𝗢𝗥𝗧𝗘𝗗 " + plugin_name)
+    print("𝗦𝗔𝗡𝗔𝗧𝗔𝗡𝗜 𝗛𝗔𝗦 𝗜𝗠𝗣𝗢𝗥𝗧𝗘𝗗 " + plugin_name)
 
 
 files = glob.glob("SANATANIxSPAM/modules/*.py")
